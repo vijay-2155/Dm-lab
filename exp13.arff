@@ -1,0 +1,23 @@
+@relation agricultural
+
+@attribute Temperature numeric
+@attribute Rainfall numeric
+@attribute SoilMoisture numeric
+@attribute FertilizerUsed numeric
+@attribute CropYield {Low, Medium, High}
+
+@data
+30,120,40,5,Medium
+25,80,35,4,Low
+28,150,60,7,High
+33,90,30,6,Medium
+22,110,55,5,High
+27,70,25,3,Low
+32,140,65,8,High
+24,100,50,4,Medium
+29,85,20,3,Low
+26,130,58,6,High
+31,95,32,4,Medium
+23,75,18,2,Low
+34,160,70,9,High
+21,105,48,3,Medium

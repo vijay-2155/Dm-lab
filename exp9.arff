@@ -1,0 +1,24 @@
+@relation student_performance
+
+@attribute Attendance numeric
+@attribute InternalMarks numeric
+@attribute AssignmentScore numeric
+@attribute SemesterMarks numeric
+@attribute Result {Pass, Fail}
+
+@data
+75,18,8,62,Pass
+60,12,5,48,Fail
+85,20,9,70,Pass
+40,10,4,35,Fail
+90,19,10,75,Pass
+55,13,6,50,Fail
+82,17,9,68,Pass
+30,8,3,28,Fail
+95,20,10,80,Pass
+45,11,4,40,Fail
+78,15,7,60,Pass
+52,12,5,45,Fail
+88,18,9,72,Pass
+33,9,3,30,Fail
+92,19,10,78,Pass

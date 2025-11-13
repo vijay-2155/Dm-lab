@@ -1,0 +1,19 @@
+@relation customer_segmentation
+
+@attribute Age numeric
+@attribute AnnualIncome numeric
+@attribute SpendingScore numeric
+
+@data
+19,15000,39
+21,18000,81
+20,16000,6
+23,21000,77
+31,35000,40
+45,65000,50
+40,70000,85
+52,80000,23
+48,60000,78
+50,90000,20
+34,40000,60
+25,25000,65

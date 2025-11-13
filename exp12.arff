@@ -1,0 +1,19 @@
+@relation retail_transactions
+
+@attribute Rice {Yes, No}
+@attribute Wheat {Yes, No}
+@attribute Oil {Yes, No}
+@attribute Sugar {Yes, No}
+@attribute Salt {Yes, No}
+
+@data
+Yes,Yes,No,Yes,No
+No,Yes,Yes,No,Yes
+Yes,No,Yes,Yes,Yes
+Yes,Yes,Yes,No,Yes
+No,No,Yes,Yes,No
+Yes,No,No,Yes,Yes
+No,Yes,Yes,Yes,No
+Yes,Yes,Yes,Yes,Yes
+No,Yes,No,Yes,Yes
+Yes,No,Yes,No,Yes

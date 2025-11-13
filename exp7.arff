@@ -1,0 +1,20 @@
+@relation customer
+
+@attribute CustomerID numeric
+@attribute Age numeric
+@attribute Gender {Male, Female}
+@attribute AnnualIncome numeric
+@attribute SpendingScore numeric
+@attribute Segment {High, Medium, Low}
+
+@data
+1,23,Male,15000,40,Low
+2,35,Female,48000,65,Medium
+3,27,?,52000,80,High
+4,50,Male,61000,55,Medium
+5,29,Female,38000,?,Low
+6,45,Male,80000,75,High
+7,?,Female,35000,30,Low
+8,32,Male,40000,50,Medium
+9,28,Female,45000,70,High
+10,40,?,60000,60,Medium
